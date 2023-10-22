@@ -1,10 +1,11 @@
-# Tarea 1
+# Tarea 1 de:
+**Gary Ramon Vera Lucas**
 ## Comandos de git
 * Comandos básicos de git
 * Comandos avanzados de git
 ### Comandos básicos de git
 #### `git config --global user.name` "Gary Vera"
-Permite crear un usuario de manera global, en la configuración inicial del cliente, para identificar los cambios realizados en git
+Permite crear un usuario global, en la configuración inicial de git, para identificar los cambios realizados
  #### `git config --global user.email` garyveralucas@gmail.com
 Admite crear el email de forma global en la configuración inicial en un repositorio de git
 #### `git config --list`
@@ -31,15 +32,15 @@ user.name=Gary Vera
 ```
 #### `git init`
 Inicializa un repositorio de git en el directorio actual  
-La salida en consola utilizado el comando `git init` es la siguiente:
+La salida en consola utilizado con `git init` es la siguiente:
 ```
 git init
 Initialized empty Git repository in H:/Mi unidad/MDW101 CONTROLADOR DE VERSIONES/mi-primer-repo/.git/
 ```
 
 #### `git status`
-Permite revisar los cambios realizados en los archivos del repositorio 
-La salida en consola utilizado el comando `git status` es la siguiente:   
+Permite revisar los cambios realizados en el repositorio   
+la salida en consola utilizado el comando `git status` es la siguiente:   
 ```
 git status
 On branch master
@@ -71,3 +72,26 @@ Consulta el historial de confirmaciones **commit**
 
 #### `git diff`
 Muestra los cambios realizados
+
+#### `git branch`
+Crea una nueva rama  
+el siguiente comando `git branch garyvera/tarea-1-multiplicacion`
+crea una rama llamada **garyvera/tarea-1-multiplicacion**
+
+#### `git checkout`
+Permite cambiar de rama  
+el siguiente comando `garyvera/tarea-1-multiplicacion`
+cambia a la **garyvera/tarea-1-multiplicacion**
+
+#### `git checkout -b`
+Este comado crea una rama y ademas realiza el cambio de la rama  
+el formato es el siguiente: `git checkout -b garyvera-tarea-2-division`
+
+#### `git branch --list`
+Muestra las ramas del repositorio
+
+#### `git merge`
+Permite unir ramas  
+Este comado `git merge garyvera-tarea-2-division `  une la rama main con  la rama  **garyvera-tarea-2-division**
+
+
