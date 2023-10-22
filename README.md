@@ -80,7 +80,7 @@ crea una rama llamada **garyvera/tarea-1-multiplicacion**
 
 #### `git checkout`
 Permite cambiar de rama  
-el siguiente comando `garyvera/tarea-1-multiplicacion`
+el siguiente comando `git checkout garyvera/tarea-1-multiplicacion`
 cambia a la **garyvera/tarea-1-multiplicacion**
 
 #### `git checkout -b`
