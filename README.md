@@ -102,7 +102,10 @@ para listar las etiquetas se utiliza `git tag`
 
 #### `git tag -d`
 Comando que elimina un tag   
-Este comando `git tag -d v0.0.1 ` elimina el tag 
+Este comando `git tag -d v0.0.1 ` elimina el tag
+
+#### `git push origin` 
+Este comando `git push origin 0.0.1 ` sube el tag al repositorio 
 
 ### Comandos avanzados de git
 #### `git rebase`
@@ -172,3 +175,6 @@ Selecciona un commit y lo copia en otra rama
 
 #### `git revert` 
 Crea un commit de un cambio realizado en otro commit
+
+#### `rm -rf .git >` 
+Reinica el repositorio 
