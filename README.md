@@ -178,3 +178,6 @@ Crea un commit de un cambio realizado en otro commit
 
 #### `rm -rf .git >` 
 Reinica el repositorio 
+
+#### `git commit amend` 
+Edita el mensaje del commit en local
