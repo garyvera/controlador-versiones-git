@@ -181,3 +181,6 @@ Reinica el repositorio
 
 #### `git commit amend` 
 Edita el mensaje del commit en local
+
+#### `git blame` 
+Consulta todos los commits realizados en un archivo `git blame nombre de archivo` 
