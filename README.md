@@ -9,9 +9,9 @@
 Permite crear un usuario global, en la configuración inicial de git, para identificar los cambios realizados
 #### `git config --global user.email` garyveralucas@gmail.com
 Admite crear el email de forma global en la configuración inicial en un repositorio de git
-#### `git config user.name "Bienestar"` 
+#### `git config user.name`  "Bienestar"
 Admite añadir un usuario a un proyecto especifico
-#### `git config user.email "bienestarpolitecnico@espam.edu.ec"` 
+#### `git config user.email`  "bienestarpolitecnico@espam.edu.ec"
 Admite añadir un correo a un proyecto especifico
 #### `git config --list`
 Muestra la configuración actual de git  
